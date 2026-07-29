@@ -1,6 +1,12 @@
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav>
+      <div>
+        <a href="#home">
+          
+        </a>
+      </div>
+    </nav>
   )
 }
 
