@@ -98,7 +98,7 @@ const Hero = () => {
                 senses.
               </p>
               <a href="#cocktails">View Cocktails</a>
-            </div>
+            </div> 
           </div>
         </div>
       </section>
