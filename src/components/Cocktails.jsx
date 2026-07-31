@@ -1,6 +1,29 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { cocktailLists } from "../constants";
 
 const Cocktails = () => {
+  useGSAP(() => {
+    const parallaxTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#cocktails",
+        start: "top 30%",
+        end: "bottom",
+        scrub: true,
+      },
+    });
+
+    parallaxTimeline
+      .from("#c-left-leaf", {
+        x: -100,
+        y: 100,
+      })
+      .from("#c-right-leaf", {
+        x: 100,
+        y: 100,
+      });
+  });
+
   return (
     <section id="cocktails" className="noisy">
       <img
