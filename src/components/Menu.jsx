@@ -1,9 +1,10 @@
 'use client'
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { allCocktails } from "../constants";
 
 const Menu = () => {
+  const contentRef = useRef()
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const totalCocktails = allCocktails.length
@@ -64,6 +65,18 @@ const Menu = () => {
 
         <div className="cocktail">
           <img src={currentCocktail.image} alt={currentCocktail.name} />
+        </div>
+
+        <div className="recipe">
+          <div ref={contentRef} className="info">
+            <p>Recipe for:</p>
+            <p id="title">{currentCocktail.name}</p>
+          </div>
+
+          <div className="details">
+            <h2>{currentCocktail.title}</h2>
+            <p>{currentCocktail.description}</p>
+          </div>
         </div>
       </div>
     </section>
