@@ -10,7 +10,7 @@ const Art = () => {
     const start = isMobile ? "top 20%" : "top top";
 
     const maskTimeline = gsap.timeline({
-      ScrollTrigger: {
+      scrollTrigger: {
         trigger: "#art",
         start,
         end: "bottom center",
