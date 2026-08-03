@@ -81,6 +81,8 @@ const Hero = () => {
           className="right-leaf"
         />
 
+        <img src="/images/arrow.png" alt="scroll-arrow" className="scroll-arrow" />
+
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
