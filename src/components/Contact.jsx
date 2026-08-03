@@ -39,13 +39,13 @@ const Contact = () => {
 		
 		<div>
 		 <h3>Visit Our Bar</h3>
-		 <p>456, Raq Blvd. #404, Los Angeles, CA 90210</p>
+		 <p>Kumasi, Ghana</p>
 		</div>
 		
 		<div>
 		 <h3>Contact Us</h3>
-		 <p>(555) 987-6543</p>
-		 <p>hello@jsmcocktail.com</p>
+		 <p>(233) 559073518</p>
+		 <p>hello@violetcocktail.com</p>
 		</div>
 		
 		<div>
