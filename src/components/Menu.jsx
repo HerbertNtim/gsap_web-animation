@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef, useState } from "react";
 import { allCocktails } from "../constants";
 import { useGSAP } from "@gsap/react";
