@@ -1,16 +1,123 @@
-# React + Vite
+# 🍸 Cocktail Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive cocktail landing page built with **React**, **Vite**, and **Tailwind CSS**. The website features smooth animations, interactive sections, and an immersive user experience powered by GSAP.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive navigation bar
+- Animated hero section with GSAP scroll effects
+- Featured cocktail showcase
+- About section
+- Interactive art section with mask zoom scroll animation
+- Menu section with a slider showcasing four cocktail categories
+- Responsive design for desktop, tablet, and mobile devices
+- Modern UI with smooth transitions and animations
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **GSAP**
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/        # Images, icons, and other static assets
+├── components/    # Reusable UI components
+├── sections/      # Landing page sections
+├── App.jsx
+└── main.jsx
+
+public/
+```
+
+> Your folder structure may vary depending on how you've organized the project.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+Navigate to the project:
+
+```bash
+cd your-repository
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+## 🎨 Animations
+
+This project uses **GSAP** to create engaging user interactions, including:
+
+- Scroll-triggered animations
+- Hero entrance animations
+- Mask zoom reveal effects
+- Smooth section transitions
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+- Mobile
+- Tablet
+- Desktop
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Herbert Ntim**
+
+Feel free to connect or contribute to the project!
